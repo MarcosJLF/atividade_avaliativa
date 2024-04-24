@@ -7,19 +7,17 @@ Vai aparecer: 3,2,1
 
 function array (){ 
 
- let number = 0;
- let mm = [ ];
-
- number = prompt("Digite três números") 
-
- mm = number.split(" ");
- 
- mm.map(Number)
-
- mm.reverse()
-
- alert(mm)
-
-}
-
-array()
+    let number = 0;
+    let mm = [ ];
+   
+   for(let i = 0; i < 3; i++){  
+    mm.push  (+prompt("Digite um números"))
+    }
+   
+    mm.reverse()
+   
+    alert(mm)
+   
+   }
+   
+   array()
