@@ -5,19 +5,20 @@ Ou seja, se digitou: 1,2,3
 Vai aparecer: 3,2,1
 */
 
-function array (){ 
+function array() {
 
-    let number = 0;
-    let mm = [ ];
-   
-   for(let i = 0; i < 3; i++){  
-    mm.push  (+prompt("Digite um números"))
+  let number = 0;
+  
+  let mm = [];
+  
+  for (let i = 0; i < 3; i++) {
+  
+    mm.push(+prompt("Digite um números " + (i + 1) + " / 3"))
+      }
+
+      mm.reverse()
+
+      alert(mm)
+
     }
-   
-    mm.reverse()
-   
-    alert(mm)
-   
-   }
-   
-   array()
+    array()
