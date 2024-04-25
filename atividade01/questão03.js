@@ -10,6 +10,7 @@ function soma() {
   for (let i = 0; i < numberlist.length; i++) {
     couter += numberlist[i]
   }
+  alert(`A soma da array [${numberlist}] = ${couter}`)
   console.log(numberlist)
   console.log(couter) 
 }
