@@ -1,6 +1,3 @@
-
-Claro, aqui está a correção:
-
 Oi, professor! Tudo bem?
 
 Eu fiz algumas alterações depois do envio, adicionando novas funcionalidades e maneiras mais eficazes de obter os dados.
