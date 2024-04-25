@@ -4,7 +4,7 @@ function soma() {
   let numberlist = [];
   let a = +prompt('Digite a quantidade de número que será somado:')
   for (let i = 0; i < a; i++) {
-    numberlist.push(+prompt('Digite um número'))
+    numberlist.push(+prompt('Digite um número '+ (i + 1)+ `/${a}`))
   }
   let couter = 0;
   for (let i = 0; i < numberlist.length; i++) {
